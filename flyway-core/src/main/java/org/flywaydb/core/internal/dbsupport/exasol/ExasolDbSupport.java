@@ -82,7 +82,7 @@ public class ExasolDbSupport extends DbSupport {
 
     @Override
     public boolean supportsDdlTransactions() {
-        return false;
+        return true;
     }
 
     @Override
